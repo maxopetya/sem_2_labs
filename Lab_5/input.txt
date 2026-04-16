@@ -1,0 +1,10 @@
+Tolstoy Leo;War and Peace;Eksmo;1869;1225
+Dostoevsky Fyodor;Crime and Punishment;AST;1866;671
+Pushkin Alexander;Eugene Onegin;Prosveshcheniye;1833;224
+Bulgakov Mikhail;The Master and Margarita;AST;1967;480
+Chekhov Anton;The Cherry Orchard;Eksmo;1904;152
+Gogol Nikolai;Dead Souls;Eksmo;1842;352
+Turgenev Ivan;Fathers and Sons;AST;1862;304
+Nabokov Vladimir;Lolita;Penguin;1955;336
+Pasternak Boris;Doctor Zhivago;Eksmo;1957;592
+Akhmatova Anna;Requiem;AST;1963;128
