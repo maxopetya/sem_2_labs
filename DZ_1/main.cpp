@@ -1,5 +1,5 @@
 //
-// BSTree — всё в одном файле
+// created by maxop
 //
 
 #include <iostream>
