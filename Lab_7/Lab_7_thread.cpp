@@ -1,6 +1,5 @@
 //
-// Created by maxop on 08/05/2026.
-// Часть 1, вариант через std::thread
+// Created by maxop on 08/05/2026
 //
 
 #include <iostream>
@@ -33,7 +32,7 @@ void threadFunc(const std::string& name, std::vector<double>& a, int from, int t
 }
 
 int main() {
-    const int N = 10; // размер массива
+    const int N = 25; // размер массива
     std::vector<double> arr(N);
 
     // Заполнение ГПСЧ
@@ -59,6 +58,6 @@ int main() {
     std::thread t3(threadFunc, "thread3", std::ref(arr), 0, N);
     t3.join();
 
-    std::cout << "\nMain: all threads finished" << std::endl;
+    std::cout << "\nAll threads finished" << std::endl;
     return 0;
 }

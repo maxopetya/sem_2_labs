@@ -1,6 +1,5 @@
 //
-// Created by maxop on 08/05/2026.
-// Часть 2, синхронизация через mutex + condition_variable
+// Created by maxop on 08/05/2026
 //
 
 #include <iostream>
@@ -49,7 +48,7 @@ void threadFunc(const std::string& name, std::vector<double>& a, int from, int t
 }
 
 int main() {
-    const int N = 10; // размер массива
+    const int N = 25; // размер массива
     std::vector<double> arr(N);
 
     // Заполнение ГПСЧ
