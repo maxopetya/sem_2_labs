@@ -56,7 +56,7 @@ public:
         return os;
     }
 
-    // Перегрузка оператора ввода из потока (формат строки: author;title;publisher;year;pages)
+    // Перегрузка оператора ввода из потока
     friend std::istream& operator>>(std::istream& is, Book& b) {
         std::string line;
         if (std::getline(is, line)) {
